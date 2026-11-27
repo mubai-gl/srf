@@ -34,6 +34,44 @@
         "facts",
         "recovery"
       ]
+    },
+    {
+      "id": "srf.engineering",
+      "path": "governance/engineering.md",
+      "kind": "core",
+      "requires": [
+        "srf.governance",
+        "srf.collaboration",
+        "srf.facts"
+      ],
+      "triggers": [
+        "risk",
+        "quality"
+      ]
+    },
+    {
+      "id": "srf.execution",
+      "path": "adapters/execution.md",
+      "kind": "core",
+      "requires": [
+        "srf.governance",
+        "srf.collaboration",
+        "srf.facts"
+      ],
+      "triggers": [
+        "execution"
+      ]
+    },
+    {
+      "id": "srf.github",
+      "path": "adapters/github.md",
+      "kind": "adapter",
+      "requires": [
+        "srf.execution"
+      ],
+      "triggers": [
+        "github"
+      ]
     }
   ],
   "assets": []
