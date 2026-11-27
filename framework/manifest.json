@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "entrypoint": "entrypoints/PROJECT_INSTRUCTIONS.md",
+  "modules": [
+    {
+      "id": "srf.governance",
+      "path": "core/governance.md",
+      "kind": "core",
+      "requires": [],
+      "triggers": [
+        "startup"
+      ]
+    }
+  ],
+  "assets": []
+}
