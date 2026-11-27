@@ -10,6 +10,30 @@
       "triggers": [
         "startup"
       ]
+    },
+    {
+      "id": "srf.collaboration",
+      "path": "core/collaboration.md",
+      "kind": "core",
+      "requires": [
+        "srf.governance"
+      ],
+      "triggers": [
+        "intent",
+        "authorization"
+      ]
+    },
+    {
+      "id": "srf.facts",
+      "path": "orchestration/facts-context.md",
+      "kind": "core",
+      "requires": [
+        "srf.governance"
+      ],
+      "triggers": [
+        "facts",
+        "recovery"
+      ]
     }
   ],
   "assets": []
