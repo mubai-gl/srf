@@ -17,4 +17,4 @@ SRF 自身的研发主仓库。当前为研发启动阶段，尚未形成可部�
 | GPT Project | [研发中心指令](instructions/SRF_PROJECT_INSTRUCTIONS.md) |
 | AI 入口 | [AGENTS.md](AGENTS.md) |
 
-当前文件是研发启动资料，不是 SRF 正式运行包。初始化流程见研发路线图第 5 节：先上传启动资料并配置 SRF Project，再在 `main` 经授权实测 GitHub，基础通过后才写入正式基线，最后新对话验证恢复。首次正式发布前仅使用 `main`，不建立其他分支或 PR。后续运行规范位于 framework/，由正式研发逐步建立；整体发布使用 Git Tag 与 GitHub Releases。
+当前文件是研发启动资料，不是 SRF 正式运行包。使用前在研发中心 Project 指令第 0 节填写实际仓库 `owner/repo`，默认目标分支为 `main`；本 Project 仅访问绑定仓库，禁止跨仓库及无范围操作，具体白名单以该指令为准；此为行为约束，不改变连接器全局授权。初始化流程见研发路线图第 5 节：先上传启动资料并配置 SRF Project，再在 `main` 经授权实测 GitHub，基础通过后才写入正式基线，最后新对话验证恢复。首次正式发布前仅使用 `main`，不建立其他分支或 PR。后续运行规范位于 framework/，由正式研发逐步建立；整体发布使用 Git Tag 与 GitHub Releases。
