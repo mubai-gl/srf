@@ -87,6 +87,18 @@
       "triggers": [
         "github"
       ]
+    },
+    {
+      "id": "srf.lifecycle",
+      "path": "evolution/lifecycle.md",
+      "kind": "evolution",
+      "requires": [
+        "srf.governance"
+      ],
+      "triggers": [
+        "feedback",
+        "lifecycle"
+      ]
     }
   ],
   "assets": []
