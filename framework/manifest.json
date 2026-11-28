@@ -63,6 +63,21 @@
       ]
     },
     {
+      "id": "srf.workflow",
+      "path": "orchestration/workflow.md",
+      "kind": "core",
+      "requires": [
+        "srf.governance",
+        "srf.collaboration",
+        "srf.facts",
+        "srf.engineering",
+        "srf.execution"
+      ],
+      "triggers": [
+        "task"
+      ]
+    },
+    {
       "id": "srf.github",
       "path": "adapters/github.md",
       "kind": "adapter",
